@@ -1,0 +1,16 @@
+
+Query took 12 ms to fetch the documents
+Query took 10 ms to fetch the documents
+Query took 9 ms to fetch the documents
+Query took 20 ms to fetch the documents
+Query took 5 ms to fetch the documents
+Query took 34 ms to fetch the documents
+Query took 55 ms to fetch the documents
+Query took 6 ms to fetch the documents
+Query took 6 ms to fetch the documents
+Query took 4 ms to fetch the documents
+Query took 6 ms to fetch the documents
+Query took 15 ms to fetch the documents
+Query took 4 ms to fetch the documents
+Query took 15 ms to fetch the documents
+Query took 4 ms to fetch the documents
