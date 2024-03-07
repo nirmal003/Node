@@ -43,6 +43,7 @@ app.get("/", (req, res) => res.send("[1,2,3,4,5]"));
 
 app.post("/api/v1/send", (req, res) => {
   const receivedToken = req.body.fcmToken;
+  console.log(receivedToken);
 
   const message = {
     notification: {

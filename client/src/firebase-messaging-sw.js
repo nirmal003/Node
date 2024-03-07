@@ -21,8 +21,7 @@ function requestPermission() {
       const messaging = getMessaging(app);
 
       getToken(messaging, {
-        vapidKey:
-          "BA1ElozbDnXmyy9dlvKbs4HhCirRs1lwQ1SWBfA2WyxlRkASaZQ60z4UVH7ihGnU1dU0kwLSRXvWTH0tl5mp93I",
+        vapidKey: process.env.V_API_KEY,
       }).then((token) => {
         if (token) {
           console.log("token", token);
