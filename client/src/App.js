@@ -11,8 +11,8 @@ function App() {
   const send = async () => {
     console.log("hi");
 
-    setText("qwertyuiop");
     setToken(localStorage.getItem("token"));
+    setText("qwertyuiop");
 
     await axios.post("http://localhost:4000/api/v1/send", {
       fcmToken: token,
